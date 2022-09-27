@@ -151,12 +151,25 @@ h2 {
 }
 
 .mexico-img {
-  /* TODO */
+  background-color: white;
+  max-width: 30%;
+  max-height: 50%;
+  align-self: center;
+  margin-left: 10px;
+  margin-right: 10px;
+
 }
 
 .mexico-red {
   background-color: #ce1126;
 }
+
+/* QUESTION 5 */
+.label:hover {
+  color: #b83806;
+  transform: scale(1.5);
+}
+
 
 /* QUESTION 6 */
 .margin-container {
@@ -171,17 +184,15 @@ h2 {
 /* For margin practice */
 .flag1 {
   background-color: red;
-  /* TODO */
 }
 
 .flag2 {
   background-color: blue;
-  /* TODO */
 }
 /* For padding practice */
 .padding-container {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
-  /* TODO */
+  padding: 30px;
 }
